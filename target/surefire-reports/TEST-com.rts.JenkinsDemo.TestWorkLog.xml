@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rts.JenkinsDemo.TestWorkLog" time="0.001" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rts.JenkinsDemo.TestWorkLog" time="0.001" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\SpringTool Workspace\JenkinsDemo\target\test-classes;D:\SpringTool Workspace\JenkinsDemo\target\classes;C:\Users\sowmiya.ramu\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="D:\SpringTool Workspace\JenkinsDemo\target\test-classes;D:\SpringTool Workspace\JenkinsDemo\target\classes;C:\Users\sowmiya.ramu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sowmiya.ramu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -17,9 +17,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
-    <property name="sun.java.command" value="C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4091701279878316735\surefirebooter-20240430100620751_3.jar C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4091701279878316735 2024-04-30T10-06-19_938-jvmRun1 surefire-20240430100620751_1tmp surefire_0-20240430100620751_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4796907257304438102\surefirebooter-20240430103939471_3.jar C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4796907257304438102 2024-04-30T10-39-37_312-jvmRun1 surefire-20240430103939471_1tmp surefire_0-20240430103939471_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="D:\SpringTool Workspace\JenkinsDemo\target\test-classes;D:\SpringTool Workspace\JenkinsDemo\target\classes;C:\Users\sowmiya.ramu\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="D:\SpringTool Workspace\JenkinsDemo\target\test-classes;D:\SpringTool Workspace\JenkinsDemo\target\classes;C:\Users\sowmiya.ramu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\sowmiya.ramu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\sowmiya.ramu"/>
     <property name="user.language" value="en"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4091701279878316735\surefirebooter-20240430100620751_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sowmiya.ramu\AppData\Local\Temp\surefire4796907257304438102\surefirebooter-20240430103939471_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
@@ -61,77 +61,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="com.rts.JenkinsDemo.TestWorkLog.testAddToLogins2()" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0">
-    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/junit/Assert
-	at com.rts.JenkinsDemo.TestWorkLog.testAddToLogins2(TestWorkLog.java:22)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.executeTestMethod(PojoTestSetExecutor.java:104)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.execute(PojoTestSetExecutor.java:63)
-	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
-	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:93)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: java.lang.ClassNotFoundException: org.junit.Assert
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	... 13 more
-]]></failure>
-  </testcase>
-  <testcase name="com.rts.JenkinsDemo.TestWorkLog.testAddToLogins1()" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0">
-    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/junit/Assert
-	at com.rts.JenkinsDemo.TestWorkLog.testAddToLogins1(TestWorkLog.java:18)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.executeTestMethod(PojoTestSetExecutor.java:104)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.execute(PojoTestSetExecutor.java:63)
-	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
-	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:93)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="com.rts.JenkinsDemo.TestWorkLog.testAddToLog2()" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0">
-    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/junit/Assert
-	at com.rts.JenkinsDemo.TestWorkLog.testAddToLog2(TestWorkLog.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.executeTestMethod(PojoTestSetExecutor.java:104)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.execute(PojoTestSetExecutor.java:63)
-	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
-	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:93)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
-  <testcase name="com.rts.JenkinsDemo.TestWorkLog.testAddToLog1()" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0">
-    <failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/junit/Assert
-	at com.rts.JenkinsDemo.TestWorkLog.testAddToLog1(TestWorkLog.java:10)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.executeTestMethod(PojoTestSetExecutor.java:104)
-	at org.apache.maven.surefire.junit.PojoTestSetExecutor.execute(PojoTestSetExecutor.java:63)
-	at org.apache.maven.surefire.junit.JUnit3Provider.executeTestSet(JUnit3Provider.java:131)
-	at org.apache.maven.surefire.junit.JUnit3Provider.invoke(JUnit3Provider.java:93)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-  </testcase>
+  <testcase name="testAddToLogins1" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0"/>
+  <testcase name="testAddToLogins2" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0"/>
+  <testcase name="testAddToLog1" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0"/>
+  <testcase name="testAddToLog2" classname="com.rts.JenkinsDemo.TestWorkLog" time="0.0"/>
 </testsuite>
